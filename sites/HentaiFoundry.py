@@ -20,7 +20,7 @@ class HentaiFoundry(fpclib.Curation):
 
         # Get dev and publisher
         self.dev = soup.select_one("#picBox .boxtitle a").text
-        self.publisher = "Hentai-Foundry.com"
+        self.publisher = "Hentai Foundry"
 
         # Get desc
         self.desc = soup.select_one("#descriptionBox .boxbody .picDescript").text.strip()
